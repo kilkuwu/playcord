@@ -19,7 +19,6 @@ class Bot(commands.Bot):
     async def setup_hook(self) -> None:
         tasks = [
             self.load_extension('cogs.Administrator.Administrator'),
-            self.load_extension('cogs.Battle.Battle'),
             self.load_extension('cogs.Helper.Helper'),
             self.load_extension('cogs.Miscellaneous.Miscellaneous'),
             self.load_extension('cogs.Music.Music'),
