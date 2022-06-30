@@ -9,9 +9,7 @@ import os
 from pymongo import MongoClient
 from utils.classes import BotError
 from utils.functions import from_seconds_to_time_format, from_time_format_to_seconds
-
-db = MongoClient(os.getenv('MONGODBURL')).discord
-
+from utils.constants import DB as db
 
 class miscellaneous(commands.Cog):
     def __init__(self, client):
