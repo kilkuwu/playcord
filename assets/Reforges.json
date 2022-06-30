@@ -1,0 +1,262 @@
+{
+    "Armors": {
+        "Fierce" : {
+            "COMMON": {
+                "health" : 10,
+                "dodge" : 5,
+                "price" : 20000
+            },
+            "UNCOMMON" : {
+                "health" : 20,
+                "dodge" : 5,
+                "price" : 40000
+            },
+            "RARE" : {
+                "health" : 40,
+                "dodge" : 5,
+                "price" : 800000
+            },
+            "EPIC" : {
+                "health" : 80,
+                "dodge" : 5,
+                "price" : 1600000
+            },
+            "LEGENDARY" : {
+                "health" : 160,
+                "dodge" : 5,
+                "price" : 32000000
+            },
+            "MYTHIC" : {
+                "health" : 320,
+                "dodge" : 5,
+                "price" : 64000000
+            }
+        },
+        "Titanic" : {
+            "COMMON": {
+                "health" : 20,
+                "dodge" : 0,
+                "price" : 20000
+            },
+            "UNCOMMON" : {
+                "health" : 40,
+                "dodge" : 0,
+                "price" : 40000
+            },
+            "RARE" : {
+                "health" : 80,
+                "dodge" : 0,
+                "price" : 800000
+            },
+            "EPIC" : {
+                "health" : 160,
+                "dodge" : 0,
+                "price" : 1600000
+            },
+            "LEGENDARY" : {
+                "health" : 320,
+                "dodge" : 0,
+                "price" : 32000000
+            },
+            "MYTHIC" : {
+                "health" : 640,
+                "dodge" : 0,
+                "price" : 64000000
+            }
+        },
+        "Renowned" : {
+            "COMMON": {
+                "health" : 15,
+                "dodge" : 10,
+                "price" : 30000
+            },
+            "UNCOMMON" : {
+                "health" : 30,
+                "dodge" : 10,
+                "price" : 50000
+            },
+            "RARE" : {
+                "health" : 60,
+                "dodge" : 10,
+                "price" : 1000000
+            },
+            "EPIC" : {
+                "health" : 120,
+                "dodge" : 10,
+                "price" : 2300000
+            },
+            "LEGENDARY" : {
+                "health" : 240,
+                "dodge" : 10,
+                "price" : 40000000
+            },
+            "MYTHIC" : {
+                "health" : 480,
+                "dodge" : 12,
+                "price" : 80000000
+            }
+        },
+        "Heroic" : {
+            "COMMON": {
+                "health" : 10,
+                "dodge" : 5,
+                "price" : 20000
+            },
+            "UNCOMMON" : {
+                "health" : 20,
+                "dodge" : 6,
+                "price" : 45000
+            },
+            "RARE" : {
+                "health" : 40,
+                "dodge" : 7,
+                "price" : 900000
+            },
+            "EPIC" : {
+                "health" : 80,
+                "dodge" : 8,
+                "price" : 2000000
+            },
+            "LEGENDARY" : {
+                "health" : 160,
+                "dodge" : 9,
+                "price" : 35000000
+            },
+            "MYTHIC" : {
+                "health" : 320,
+                "dodge" : 10,
+                "price" : 65000000
+            }
+        }
+    },
+    "Weapons" : {
+        "Sharp" : {
+            "COMMON": {
+                "strength" : 5,
+                "crit" : 5,
+                "price" : 20000
+            },
+            "UNCOMMON" : {
+                "strength" : 10,
+                "crit" : 5,
+                "price" : 50000
+            },
+            "RARE" : {
+                "strength" : 15,
+                "crit" : 5,
+                "price" : 1200000
+            },
+            "EPIC" : {
+                "strength" : 30,
+                "crit" : 5,
+                "price" : 3000000
+            },
+            "LEGENDARY" : {
+                "strength" : 50,
+                "crit" : 5,
+                "price" : 50000000
+            },
+            "MYTHIC" : {
+                "strength" : 70,
+                "crit" : 5,
+                "price" : 70000000
+            }
+        },
+        "Withered" :{
+            "COMMON": {
+                "strength" : 10,
+                "crit" : 0,
+                "price" : 30000
+            },
+            "UNCOMMON" : {
+                "strength" : 20,
+                "crit" : 0,
+                "price" : 70000
+            },
+            "RARE" : {
+                "strength" : 30,
+                "crit" : 0,
+                "price" : 1500000
+            },
+            "EPIC" : {
+                "strength" : 60,
+                "crit" : 0,
+                "price" : 3500000
+            },
+            "LEGENDARY" : {
+                "strength" : 100,
+                "crit" : 0,
+                "price" : 70000000
+            },
+            "MYTHIC" : {
+                "strength" : 150,
+                "crit" : 0,
+                "price" : 120000000
+            }
+        },
+        "Ancient" :{
+            "COMMON": {
+                "strength" : 5,
+                "crit" : 4,
+                "price" : 20000
+            },
+            "UNCOMMON" : {
+                "strength" : 15,
+                "crit" : 5,
+                "price" : 80000
+            },
+            "RARE" : {
+                "strength" : 20,
+                "crit" : 6,
+                "price" : 1500000
+            },
+            "EPIC" : {
+                "strength" : 50,
+                "crit" : 7,
+                "price" : 4000000
+            },
+            "LEGENDARY" : {
+                "strength" : 85,
+                "crit" : 8,
+                "price" : 71000000
+            },
+            "MYTHIC" : {
+                "strength" : 100,
+                "crit" : 10,
+                "price" : 110000000
+            }
+        },
+        "Fabled" :{
+            "COMMON": {
+                "strength" : 10,
+                "crit" : 5,
+                "price" : 50000
+            },
+            "UNCOMMON" : {
+                "strength" : 20,
+                "crit" : 6,
+                "price" : 150000
+            },
+            "RARE" : {
+                "strength" : 30,
+                "crit" : 7,
+                "price" : 3500000
+            },
+            "EPIC" : {
+                "strength" : 60,
+                "crit" : 8,
+                "price" : 5500000
+            },
+            "LEGENDARY" : {
+                "strength" : 100,
+                "crit" : 10,
+                "price" : 90000000
+            },
+            "MYTHIC" : {
+                "strength" : 130,
+                "crit" : 12,
+                "price" : 150000000
+            }
+        }
+    }
+}

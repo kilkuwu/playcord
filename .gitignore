@@ -1,0 +1,5 @@
+BossList
+.venv
+__pycache__
+fake.txt
+.vscode

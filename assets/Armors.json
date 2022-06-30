@@ -1,0 +1,279 @@
+{
+    "Armors" : [
+        {
+            "name":"Skin",
+            "protection_min" : 1,
+            "protection_max" : 1,
+            "health" : 0,
+            "dodge" : 0,
+            "rarity" : "COMMON",
+            "price" : 0,
+            "lore" : ["**Skin** bad!"],
+            "status" : ""
+        },
+        {
+            "name":"Leather Armor",
+            "protection_min" : 3,
+            "protection_max" : 4,
+            "health" : 5,
+            "dodge" : 0,
+            "rarity" : "COMMON",
+            "price" : 40000,
+            "lore" : ["Leather **Protects**!"],
+            "status" : ""
+        },
+        {
+            "name" : "Grass Armor",
+            "protection_min" : 0,
+            "protection_max" : 2,
+            "health" : 5,
+            "dodge" : 10,
+            "rarity" : "COMMON",
+            "price" : 75000,
+            "lore" : ["You **can't see** me!"],
+            "status" : ""
+        },
+        {  
+            "name": "Adidas Clothes",  
+            "protection_min" : 3,
+            "protection_max" : 4,
+            "health" : 5,
+            "dodge" : 0,
+            "rarity" : "COMMON",
+            "price" : 50000,
+            "lore" : ["Me **Adidas**!"],
+            "status" : ""
+        },
+        {
+            "name":"Nike Clothes",
+            "protection_min" : 3,
+            "protection_max" : 4,
+            "health" : 5,
+            "dodge" : 0,
+            "rarity" : "COMMON",
+            "price" : 50000,
+            "lore" : ["Me **Nike**!"],
+            "status" : ""
+        },
+        {
+            "name":"Local Brand Clothes",
+            "protection_min" : 4,
+            "protection_max" : 5,
+            "health" : 5,
+            "dodge" : 0,
+            "rarity" : "COMMON",
+            "price" : 50000,
+            "lore" : ["Me **Local Brand!**"],
+            "status" : ""
+        },
+        {
+            "name":"Gucci Clothes",
+            "protection_min" : 5,
+            "protection_max" : 8,
+            "health" : 10,
+            "dodge" : 0,
+            "rarity" : "UNCOMMON",
+            "price" : 100000,
+            "lore" : ["Me **Gucci!**"],
+            "status" : ""
+        },
+        {
+            "name":"Supreme Clothes",
+            "protection_min" : 6,
+            "protection_max" : 9,
+            "health" : 10,
+            "dodge" : 0,
+            "rarity" : "UNCOMMON",
+            "price" : 100000,
+            "lore" : ["Me **Supreme!**"],
+            "status" : ""
+        },
+        {
+            "name":"Louis Vuitton Clothes",
+            "protection_min" : 5,
+            "protection_max" : 9,
+            "health" : 10,
+            "dodge" : 0,
+            "rarity" : "UNCOMMON",
+            "price" : 100000,
+            "lore" : ["Me **Louis Vuitton!**"],
+            "status" : ""
+        },
+        {
+            "name":"Knight Armor",
+            "protection_min" : 10,
+            "protection_max" : 18,
+            "health" : 15,
+            "dodge" : 0,
+            "rarity" : "RARE",
+            "price" : 1950000,
+            "lore" : ["I'm a **knight**!", "**Shield** up!"],
+            "status" : ""
+        },
+        {
+            "name":"US President's Bulletproof Clothes",
+            "protection_min" : 18,
+            "protection_max" : 20,
+            "health" : 15,
+            "dodge" : 0,
+            "rarity" : "RARE",
+            "price" : 1950000,
+            "lore" : ["Me **the President!**", "I speak **law**!", "I speak **power**!"],
+            "status" : ""
+        },
+        {
+            "name":"Royal Armor",
+            "protection_min" : 18,
+            "protection_max" : 20,
+            "health" : 25,
+            "dodge" : 0,
+            "rarity" : "RARE",
+            "price" : 1950000,
+            "lore" : ["Me **ROYAL!**", "Me **RICH**", "Me **ROYAL RICH**"],
+            "status" : ""
+        },
+        {
+            "name" : "Midas' Armor",
+            "protection_min" : 23,
+            "protection_max" : 30,
+            "health" : 25,
+            "dodge" : 0,
+            "rarity" : "EPIC",
+            "price" : 4750000,
+            "lore" : ["Me **SUPER RICH!**","Witness my **RICHNESS!**"],
+            "status" : ""
+        },
+        {
+            "name":"Smurf Armor",
+            "protection_min" : 25,
+            "protection_max" : 32,
+            "health" : 10,
+            "dodge" : 20,
+            "rarity" : "EPIC",
+            "price" : 4750000,
+            "lore" : ["You **can't see** me!", "Witness my **SMURF ABILITY!**", "I'm **JK**! HAHA!"],
+            "status" : ""
+        },
+        {
+            "name":"Forged Iron Armor",
+            "protection_min" : 23,
+            "protection_max" : 30,
+            "health" : 25,
+            "dodge" : 0,
+            "rarity" : "EPIC",
+            "price" : 4750000,
+            "lore" : ["Me **STRONG!**","Witness my **STRENGTH!**", "I was **FORGED** to be cool!"],
+            "status" : ""
+        },
+        {
+            "name":"Obsidian Armor",
+            "protection_min" : 40,
+            "protection_max" : 40,
+            "health" : 30,
+            "dodge" : 10,
+            "rarity" : "LEGENDARY",
+            "price" : 25000000,
+            "lore" : ["Me **CRAZY STRONG!**","I am an **INDESTRUCTIBLE SHIELD**!", "Did you know **OBSIDIAN** is the hardest of all **BLOCKS**?"],
+            "status" : ""
+        },
+        {
+            "name":"Armor of the Ancient Gods",
+            "protection_min" : 35,
+            "protection_max" : 50,
+            "health" : 30,
+            "dodge" : 10,
+            "rarity" : "LEGENDARY",
+            "price" : 25000000,
+            "lore" : ["Me **GOD!**","Witness my **GOD POWERS!**", "**GODS** were slain by **ME**"],
+            "status" : ""
+        },
+        {
+            "name":"Superior Dragon Armor",
+            "protection_min" : 35,
+            "protection_max" : 49,
+            "health" : 30,
+            "dodge" : 10,
+            "rarity" : "LEGENDARY",
+            "price" : 25000000,
+            "lore" : ["Me **SUPERIOR DRAGON!**","I am stronger than every other **DRAGONS**", "**SLAYING DRAGON** is my **JOB**!"],
+            "status" : ""
+        },
+        {
+            "name":"Reaper Armor",
+            "protection_min" : 30,
+            "protection_max" : 50,
+            "health" : 30,
+            "dodge" : 10,
+            "rarity" : "LEGENDARY",
+            "price" : 25000000,
+            "lore" : ["Me **DA SHINIGAMI!**","Did you know i have **DEATH NOTE**?", "Witness me! I'm almighty **REAPER**"],
+            "status" : ""
+        },
+        {
+            "name":"Depression Armor",
+            "protection_min" : 49,
+            "protection_max" : 53,
+            "health" : 30,
+            "dodge" : 10,
+            "rarity" : "MYTHIC",
+            "price" : 50000000,
+            "lore" : ["Me **SAD!**","Me **DEPRESSED**!"],
+            "status" : ""
+        },
+        {
+            "name":"Melancholy Armor",
+            "protection_min" : 53,
+            "protection_max" : 55,
+            "health" : 30,
+            "dodge" : 10,
+            "rarity" : "MYTHIC",
+            "price" : 50000000,
+            "lore" : ["Me **SAD!**","Me **DEPRESSED**!"],
+            "status" : ""
+        },
+        {
+            "name":"Suicide Armor",
+            "protection_min" : 50,
+            "protection_max" : 50,
+            "health" : 0,
+            "dodge" : 40,
+            "rarity" : "MYTHIC",
+            "price" : 50000000,
+            "lore" : ["Me **SAD!**","Me **DEPRESSED**!", "Me **SUICIDE**!"],
+            "status" : ""
+        },
+        {
+            "name":"Protagonist Halo",
+            "protection_min" : 70,
+            "protection_max" : 80,
+            "health" : 30,
+            "dodge" : 10,
+            "rarity" : "MYTHIC",
+            "price" : 50000000,
+            "lore" : ["Me **PROTAGONIST!**","Me **MAIN CHARACTER**!"],
+            "status" : ""
+        },
+        {
+            "name":"Plot Armor",
+            "protection_min" : 50,
+            "protection_max" : 50,
+            "health" : 0,
+            "dodge" : 50,
+            "rarity" : "ADMIN",
+            "price" : 5000000000,
+            "lore" : ["Plot Armor protects **ME!**","Me **luv PLOT ARMOR**!"],
+            "status" : ""
+        },
+        {
+            "name":"Armor of my Crush",
+            "protection_min" : 99999,
+            "protection_max" : 99999,
+            "health" : 99999,
+            "dodge" : 100,
+            "rarity" : "ADMIN",
+            "price" : 50000000000,
+            "lore" : ["**INDESTRUCTIBLE! IMMUNE TO DAMAGE**"],
+            "status" : ""
+        }
+    ]
+}
