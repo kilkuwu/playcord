@@ -1,39 +1,12 @@
 import discord
 from discord.ext import commands
-from cogs.Battle.classes.Inventory.item import get_default_item_by_name, get_item
-from cogs.Battle.classes.User import User
-from utils.functions import get_default_embed, verify_and_get_user
-from utils.constants import GUILDS, USERS_DB
+from utils.functions import get_default_embed
+from utils.constants import GUILDS
 
 class administrator(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.hybrid_command(name='give')
-    @commands.is_owner()
-    async def give_command(self, ctx, member: discord.Member, count: int, *, item
-    : str):
-        user, message = await verify_and_get_user(ctx, member.id)
-
-        if not user:
-            return await message.edit(embed=get_default_embed(ctx, f"Your target might not have an Eyes of Heaven profile."))
-
-        user.inventory.add_by_name(user.inventory.items, item, count)            
-        user.update_inventory()
-        await message.edit(embed=get_default_embed(ctx, 'SUCCESSFUL COMMAND', f"***Added {count} x {item} to {member.mention}'s inventory***"))
-    
-    @commands.hybrid_command(name='takeaway')
-    @commands.is_owner()
-    async def takeaway_command(self, ctx, member: discord.Member, count: int, *, item: str):
-        user, message = await verify_and_get_user(ctx, member.id)
-
-        if not user:
-            return await message.edit(embed=get_default_embed(ctx, f"Your target might not have an Eyes of Heaven profile."))
-
-        existed, count = user.inventory.remove_by_name(user.inventory.items, item, count)
-        user.update_inventory()
-        await message.edit(embed=get_default_embed(ctx, 'SUCCESSFUL COMMAND', f"***Removed {count} x {item} to {member.mention}'s inventory***"))
-    
     @commands.command(name='sync', hidden=True)
     @commands.is_owner()
     async def sync_command(self, ctx):

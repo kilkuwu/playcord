@@ -2,7 +2,6 @@ import re
 import discord
 from discord.ext import commands
 
-from cogs.Battle.classes.User import User
 from .constants import TIME_REGEX, USERS_DB
 from discord.utils import _string_width
 
@@ -69,15 +68,3 @@ def from_seconds_to_time_format(s):
     mins = int(total_minutes % 60 - (sec / 3600) - (msec / 3600000))
     hours = int(total_hours - (mins / 60) - (sec / 3600) - (msec / 3600000))
     return "{:02d}:{:02d}:{:02d}".format(hours, mins, sec) if hours > 0 else "{:02d}:{:02d}".format(mins, sec)
-
-
-async def verify_and_get_user(ctx: commands.Context, id):
-    message = await ctx.reply(embed=get_default_embed(ctx=ctx, title="Fetching data..."), mention_author=False)
-
-    player_data = USERS_DB.find_one({'_id': id})
-    if player_data == None:
-        return None, message
-
-    user = User.from_data(ctx.author, player_data)
-
-    return user, message

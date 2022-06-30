@@ -729,31 +729,32 @@ class music(commands.Cog):
         )
         if find and find.get('playlists', None):
             find = find['playlists']
-            if find['plauthor'] == ctx.author.id or self.bot.is_owner(ctx.author):
-                view = Confirm(ctx.author)
-                message = await ctx.send(
-                    embed=get_default_embed(
-                        ctx=ctx,
-                        title=f'**Your playlist called {name} already existed, do you want to overwrite it?**'
-                    ),
-                    view=view
-                )
-                timeout = await view.wait()
-                if timeout:
-                    await ctx.message.delete()
-                    return await message.delete()
-                if view.value:
-                    await message.delete()
-                else:
-                    await ctx.message.delete()
-                    return await message.delete()
-            else:
-                return await ctx.send(
-                    embed=get_default_embed(
-                        ctx=ctx,
-                        title=f"The playlist called {name} already existed, to change this playlist you need permissions from its author."
+            if (find := find.get(name, None)):
+                if find['plauthor'] == ctx.author.id or self.bot.is_owner(ctx.author):
+                    view = Confirm(ctx.author)
+                    message = await ctx.send(
+                        embed=get_default_embed(
+                            ctx=ctx,
+                            title=f'**Your playlist called {name} already existed, do you want to overwrite it?**'
+                        ),
+                        view=view
                     )
-                )
+                    timeout = await view.wait()
+                    if timeout:
+                        await ctx.message.delete()
+                        return await message.delete()
+                    if view.value:
+                        await message.delete()
+                    else:
+                        await ctx.message.delete()
+                        return await message.delete()
+                else:
+                    return await ctx.send(
+                        embed=get_default_embed(
+                            ctx=ctx,
+                            title=f"The playlist called {name} already existed, to change this playlist you need permissions from its author."
+                        )
+                    )
 
         tracks = player.current_queue
         trackurl = []
