@@ -26,7 +26,7 @@ class nsfw(commands.Cog):
         message = await ctx.reply(content="Processing input...", mention_author=False)
         try:
             async with aiohttp.ClientSession() as session:
-                responses = await (await session.get(url)).json()
+                responses = await (await session.get(url)).json(content_type='text/html')
         except JSONDecodeError:
             return await message.edit(content='Nothing was found.')
         await message.edit(content='Finished fetching.')
