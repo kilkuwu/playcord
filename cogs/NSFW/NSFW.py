@@ -20,13 +20,14 @@ class nsfw(commands.Cog):
         tags = tags.split()
         url = format_api_arguments(
             "https://api.rule34.xxx/index.php?page=dapi&s=post&q=index&",
-            times=times,
+            limit=times,
+            json=1,
             tags=" ".join(tags),
         )
         message = await ctx.reply(content="Processing input...", mention_author=False)
         try:
             async with aiohttp.ClientSession() as session:
-                responses = await (await session.get(url)).json(content_type='text/html')
+                responses = await (await session.get(url)).json()
         except JSONDecodeError:
             return await message.edit(content='Nothing was found.')
         await message.edit(content='Finished fetching.')
